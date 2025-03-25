@@ -26,6 +26,10 @@
         <a class="dropdown-item" href="/servlet_250325_war_exploded/s5">S5Redirect (화면 X)</a>
         <a class="dropdown-item" href="/servlet_250325_war_exploded/s6test.jsp">S6Include</a>
         <a class="dropdown-item" href="/servlet_250325_war_exploded/s7test.jsp">S7Forward</a>
+        <a class="dropdown-item" href="/servlet_250325_war_exploded/s8">S8Context</a>
+        <a class="dropdown-item" href="/servlet_250325_war_exploded/s82">S8Context2 (S8Context 실행 후 동작)</a>
+        <a class="dropdown-item" href="/servlet_250325_war_exploded/s9">S9Session</a>
+        <a class="dropdown-item" href="/servlet_250325_war_exploded/s92">S9Session2 (S9Session 실행 후 동작)</a>
       </div>
     </li>
   </ul>

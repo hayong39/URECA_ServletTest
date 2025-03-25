@@ -16,11 +16,11 @@ public class S7Forward extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("S7Forward - doGet - START");
 //
-//        RequestDispatcher rd = req.getRequestDispatcher("/s72");
-//        rd.forward(req, resp);
+        RequestDispatcher rd = req.getRequestDispatcher("/s72");
+        rd.forward(req, resp);
 
         PrintWriter out = resp.getWriter();
-        out.print("<body bgcolor=red>");
+        out.print("<body bgcolor=orange>");
         out.print("<h1>forward test success!</h1>");
         out.print("</body></html>");
         out.close();
